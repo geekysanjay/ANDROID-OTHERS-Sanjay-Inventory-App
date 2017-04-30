@@ -19,7 +19,7 @@ import android.widget.Toast;
 import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
- * Created by Praveen on 03/31/2017.
+ * Created by Sanjay on 03/31/2017.
  */
 
 public class AddDialogFragment extends DialogFragment {
