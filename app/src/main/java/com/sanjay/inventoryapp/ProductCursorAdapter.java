@@ -1,36 +1,23 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import android.content.ContentUris;
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
-import android.os.Environment;
-import android.text.TextUtils;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.webkit.URLUtil;
 import android.widget.Button;
 import android.widget.CursorAdapter;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.File;
-
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
-import com.praveent.inventoryapp.data.ProductDbHelper;
-
-import static android.R.attr.bitmap;
-import static android.R.attr.id;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
- * Created by Praveen on 31/03/2017.
+ * Created by Sanjay on 31/03/2017.
  */
 
 public class ProductCursorAdapter extends CursorAdapter {

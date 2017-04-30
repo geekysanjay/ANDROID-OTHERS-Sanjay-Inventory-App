@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import android.app.LoaderManager;
 import android.content.ContentUris;
@@ -12,13 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.Button;
 import android.widget.ListView;
 
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
-
-import static android.R.attr.data;
-import static com.praveent.inventoryapp.R.string.add_product;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 public class MainActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>  {
 

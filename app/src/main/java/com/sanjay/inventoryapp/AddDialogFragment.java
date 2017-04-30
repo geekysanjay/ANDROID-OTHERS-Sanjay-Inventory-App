@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -16,7 +16,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
  * Created by Sanjay on 03/31/2017.

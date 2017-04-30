@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp.data;
+package com.sanjay.inventoryapp.data;
 
 import android.content.ContentResolver;
 import android.net.Uri;

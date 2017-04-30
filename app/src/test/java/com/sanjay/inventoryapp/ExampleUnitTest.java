@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp.data;
+package com.sanjay.inventoryapp.data;
 
 import android.content.ContentProvider;
 import android.content.ContentUris;
@@ -10,9 +10,7 @@ import android.net.Uri;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
-
-import static com.praveent.inventoryapp.R.id.price;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
  * Created by Praveen on 31/03/2017.

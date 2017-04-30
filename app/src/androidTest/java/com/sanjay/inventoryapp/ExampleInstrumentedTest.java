@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

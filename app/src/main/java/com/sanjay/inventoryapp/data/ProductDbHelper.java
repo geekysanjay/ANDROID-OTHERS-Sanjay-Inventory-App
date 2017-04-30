@@ -1,10 +1,10 @@
-package com.praveent.inventoryapp.data;
+package com.sanjay.inventoryapp.data;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
  * Created by Praveen on 31/03/2017.

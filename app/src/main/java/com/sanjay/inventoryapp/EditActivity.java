@@ -1,4 +1,4 @@
-package com.praveent.inventoryapp;
+package com.sanjay.inventoryapp;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -14,10 +14,8 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.net.Uri;
 import android.os.Bundle;
-import android.provider.MediaStore;
 import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -25,18 +23,13 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.ByteArrayOutputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 
-import com.praveent.inventoryapp.data.ProductContract.ProductEntry;
-
-import static android.R.attr.bitmap;
+import com.sanjay.inventoryapp.data.ProductContract.ProductEntry;
 
 /**
- * Created by Praveen on 03/31/2017.
+ * Created by Sanjay on 03/31/2017.
  */
 
 public class EditActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<Cursor>, ModifyQuantityDialogFragment.QuantityListener {
